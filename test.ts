@@ -1,1 +1,1 @@
-gesture.showIconImageOnGesture(Gesture.Shake, IconNames.Heart)
+//gesture.showIconImageOnGesture(Gesture.Shake, IconNames.Heart)
