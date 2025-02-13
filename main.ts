@@ -7,13 +7,11 @@ namespace gesture {
      */
     //% block
     export function showIconImageOnGesture(gesture: Gesture, icon: IconNames) {
-        while (true) {
-            if (input.isGesture(gesture)) {
-                basic.showIcon(IconNames.Heart)
-                basic.pause(1000)
-                basic.clearScreen()
-                basic.pause(1000)
-            }
+        if (input.isGesture(gesture)) {
+            basic.showIcon(IconNames.Heart)
+            basic.pause(1000)
+            basic.clearScreen()
+            basic.pause(1000)
         }
     }
 }
